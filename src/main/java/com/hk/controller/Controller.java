@@ -14,10 +14,12 @@ public class Controller
 	
 	@GetMapping("/wish")
 	public String wish() {
+		System.out.println("wish method");
 		return "hello boss Good Morning,how is your day";
 	}
 	@GetMapping("/greet")
 	public String greet() {
+		System.out.println("greet method");
 		return "hello boss how are you,how is your day";
 	}
 	@GetMapping("/date")
