@@ -11,6 +11,10 @@ public class Controller
 
 	@GetMapping
 	public String wish() {
+		return "hello boss Good Morning";
+	}
+	@GetMapping
+	public String greet() {
 		return "hello boss how are you";
 	}
 }
