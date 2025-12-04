@@ -18,4 +18,8 @@ public class Controller
 	public String greet() {
 		return "hello boss how are you";
 	}
+	@GetMapping("/date")
+	public void date() {
+		System.out.println(LocaldateTime.now());
+	}
 }
