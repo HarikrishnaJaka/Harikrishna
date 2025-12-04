@@ -15,6 +15,7 @@ public class Controller
 	@GetMapping("/wish")
 	public String wish() {
 		System.out.println("wish method");
+		System.out.println("kjabfiwejfb");
 		return "hello boss Good Morning,how is your day";
 	}
 	@GetMapping("/greet")
