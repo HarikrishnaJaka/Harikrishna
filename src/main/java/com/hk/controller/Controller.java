@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller
 {
 
-	@GetMapping
+	
+	@GetMapping("/wish")
 	public String wish() {
 		return "hello boss Good Morning";
 	}
-	@GetMapping
+	@GetMapping("/greet")
 	public String greet() {
 		return "hello boss how are you";
 	}
