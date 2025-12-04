@@ -1,5 +1,7 @@
 package com.hk.controller;
 
+import java.time.LocalDateTime;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +22,6 @@ public class Controller
 	}
 	@GetMapping("/date")
 	public void date() {
-		System.out.println(LocaldateTime.now());
+		System.out.println(LocalDateTime.now());
 	}
 }
