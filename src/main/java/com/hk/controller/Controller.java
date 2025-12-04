@@ -21,6 +21,7 @@ public class Controller
 	@GetMapping("/greet")
 	public String greet() {
 		System.out.println("greet method");
+		System.out.println("kjabfiwejfb");
 		return "hello boss how are you,how is your day";
 	}
 	@GetMapping("/date")
