@@ -27,6 +27,7 @@ public class Controller
 	@GetMapping("/date")
 	public void date() {
 		System.out.println("date and time:");
+			System.out.println("kjabfiwejfb");
 		System.out.println(LocalDateTime.now());
 	}
 }
