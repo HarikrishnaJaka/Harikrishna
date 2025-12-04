@@ -14,7 +14,7 @@ public class Controller
 	
 	@GetMapping("/wish")
 	public String wish() {
-		return "hello boss Good Morning";
+		return "hello boss Good Morning,how is your day";
 	}
 	@GetMapping("/greet")
 	public String greet() {
