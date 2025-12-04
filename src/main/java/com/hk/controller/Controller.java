@@ -18,7 +18,7 @@ public class Controller
 	}
 	@GetMapping("/greet")
 	public String greet() {
-		return "hello boss how are you";
+		return "hello boss how are you,how is your day";
 	}
 	@GetMapping("/date")
 	public void date() {
